@@ -1,8 +1,5 @@
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
+  parser: 'babel-eslint',
   extends: [
     'standard',
     'standard-react',
@@ -13,7 +10,9 @@ module.exports = {
     'react'
   ],
   rules: {
-    'prefer-const': 'error',
+    'prefer-const': ['error', {
+      destructuring: 'all'
+    }],
     'quote-props': ['error', 'as-needed'],
     'eol-last': 'off',
     'comma-dangle': 'off'
