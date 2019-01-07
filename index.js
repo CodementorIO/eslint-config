@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'standard',
+    'standard-react',
     'standard-jsx'
   ],
   plugins: [
