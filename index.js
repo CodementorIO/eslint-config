@@ -13,6 +13,8 @@ module.exports = {
   ],
   rules: {
     'prefer-const': 'error',
-    'eol-last': 'off'
+    'quote-props': ['error', 'as-needed'],
+    'eol-last': 'off',
+    'comma-dangle': 'off'
   }
 }
