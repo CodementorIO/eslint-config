@@ -1,0 +1,24 @@
+{
+  "name": "@codementor/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint config for codementor.io projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodementorIO/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "codementor"
+  ],
+  "author": "https://github.com/ianwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodementorIO/eslint-config/issues"
+  },
+  "homepage": "https://github.com/CodementorIO/eslint-config#readme"
+}
